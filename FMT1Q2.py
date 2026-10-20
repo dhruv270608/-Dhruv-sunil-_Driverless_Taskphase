@@ -12,8 +12,10 @@ class sort:
                     min=j
             l[i],l[min]=l[min],l[i] 
         return l              
-sorter = sort()
-print(sorter.selectionsort())
+if __name__=="__main__":
+    
+    sorter = sort()
+    print(sorter.selectionsort())
 
     
 '''Create a class with a function that does selection sort on a list of
